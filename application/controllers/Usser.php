@@ -9,8 +9,6 @@ class Usser extends CI_Controller
     
     public function __construct($config = 'rest')
     {parent::__construct($config);}
-     public function index(){}
-
         //sending_otp
      public function sending_otp()
     {   $to = $this->input->get('email');
